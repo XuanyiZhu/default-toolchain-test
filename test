@@ -27,7 +27,7 @@
         <property name="ParameterBindings" type="string" null="true" />
         <property name="HelpUrl" type="string" />
         <property name="AdditionalFilterFields" type="string" />
-        <property name="DataMappingViewFields" type="string">{fa564e0f-0c70-4ab9-b863-0177e6ddd247},Text;{f7c87de6-0335-458d-bed9-73aa9dbcd40f},Choice;{a46d273d-f565-4fe4-998f-a9e6cfcab1c1},Text;{636ccb62-305a-458c-928f-6b8bd3e2c6cb},User;</property>
+        <property name="DataMappingViewFields" type="string">{fa564e0f-0c70-4ab9-b863-0177e6ddd247},Text;</property>
         <property name="Title" type="string">SOV Link List Custom Content Query</property>
         <property name="FeedDescription" type="string" />
         <property name="UseCache" type="bool">True</property>
@@ -59,7 +59,7 @@
         <property name="ListGuid" type="string">b7676bb7-08bd-4d14-8c87-50baf93e0206</property>
         <property name="DataFields" type="string" />
         <property name="ShowWithSampleData" type="bool">True</property>
-        <property name="GroupBy" type="string">Site_x0020_Collection</property>
+        <property name="GroupByFieldType" type="string">Text</property>
         <property name="Default" type="string" />
         <property name="ViewFlags" type="Microsoft.SharePoint.SPViewFlags, Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">None</property>
         <property name="ContentTypeBeginsWithId" type="string" />
@@ -77,11 +77,11 @@
         <property name="AdditionalGroupAndSortFields" type="string" />
         <property name="UseSQLDataSourcePaging" type="bool">True</property>
         <property name="Height" type="string" />
-        <property name="DataMappings" type="string">Status:{f7c87de6-0335-458d-bed9-73aa9dbcd40f},Status,Choice;|SiteManager:{636ccb62-305a-458c-928f-6b8bd3e2c6cb},Site_x0020_Manager,User;|Title:{fa564e0f-0c70-4ab9-b863-0177e6ddd247},Title,Text;|LinkUrl:|PubDate:|FileSize:|ImageUrl:|SiteParent:{a46d273d-f565-4fe4-998f-a9e6cfcab1c1},Site_x0020_Parent,Text;|</property>
+        <property name="DataMappings" type="string">Status:{f7c87de6-0335-458d-bed9-73aa9dbcd40f},Status,Choice;|Description:|SiteParent:{a46d273d-f565-4fe4-998f-a9e6cfcab1c1},Site_x0020_Parent,Text;|Title:{fa564e0f-0c70-4ab9-b863-0177e6ddd247},Title,Text;|LinkUrl:|PubDate:|FileExtension:|FileSize:|ImageUrl:|SiteManager:{636ccb62-305a-458c-928f-6b8bd3e2c6cb},Site_x0020_Manager,User;|ImageUrlAltText:|</property>
         <property name="ListUrl" type="string" null="true" />
         <property name="ShowUntargetedItems" type="bool">False</property>
         <property name="AllowMinimize" type="bool">True</property>
-        <property name="GroupBy" type="string" />
+        <property name="GroupBy" type="string">Site_x0020_Collection</property>
         <property name="FilterIncludeChildren1" type="bool">False</property>
         <property name="BaseType" type="string" />
         <property name="MainXslLink" type="string" />
